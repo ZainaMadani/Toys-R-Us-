@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 10vh;
+}
+
+nav .logo {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+nav .logo i{
+    color: rgb(83, 212, 212);
+    padding-left: 0.75rem;
+}
+
+nav .bars-menu {
+    display: none;
+}
+nav .logo h4{
+    font-family:"lalezar", cursive ;
+}
+
+nav .nav-items{
+    display: flex;
+    list-style-type: none;
+}
+nav .nav-items .nav-item{
+    padding: 0 1rem;
+}
+nav .nav-items .nav-item .nav-link{
+    text-decoration: none;
+    color: rgb(74, 223, 228);
+    font-size: 1.4rem;
+}
+nav .nav-items .nav-item .nav-link:hover{
+ color: rgb(60, 140, 143);   
+}
+/* main section */
+.main{
+    background-image: url('Toy-Names-For-Kids.jpg');
+    background-size: cover;
+}
+
+.main .main-section{
+  max-width: 1330px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.main {
+    max-width: 1350px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.main-section .content{
+    display: flex;
+    flex-direction: column;
+}
+.main-section .content h4{
+    color: rgb(47, 119, 148);
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.main-section .content h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    color: rgb(2, 7, 12);
+}
+.main-section .content .btn{
+    width: 9rem;
+    margin-top: 3rem;
+    border-radius: 4rem;
+    outline: none;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(142, 221, 231);
+    border: none;
+}
+.main-section .content .btn:hover{
+    background-color: rgb(117, 195, 207);
+    cursor: pointer;
+}
+.main-section .content .btn a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 1.4rem;
+}
+/*features section*/
+.features {
+    padding: 2rem 0;
+    background-color: rgb(161, 201, 211);
+}
+.features .features-section {
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.features .features-section h3 {
+    color: rgb(236, 246, 250);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.features .features-section .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+.features .features-section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 2rem;
+    max-width: 13rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    scale: 1.1;
+    cursor: pointer;
+}
+.features .features-section .qualities .quality i{
+    font-size: 1.6rem;
+    color: rgb(87, 167, 167);
+    margin-top: 1rem;
+}
+.features .features-section .qualities .quality h4{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.features .features-section .qualities .quality p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(72, 140, 143);
+}
+.features .features-section .qualities .quality:hover{
+    border: 2px solid rgb(82, 126, 143);
+}
+/*new toys*/
+.newest-toys{
+    padding-top: 3rem;
+}
+.newest-toys .toy-section{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.newest-toys .toy-section h3{
+    color: rgb(98, 194, 194);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.newest-toys .toy-section .toys{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+}
+.newest-toys .toy-section .toys .toy{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toy img {
+    margin-bottom: 1rem;
+}
+.toy img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.toy h4{
+    font-size: 1.4rem;
+}
+ .toy-section .btn{
+    width: 18rem;
+    background-color: rgb(68, 189, 189);
+    border: none;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    width: 18rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+.newest-toys .toy-section .toys .btn a{
+    text-decoration: none;
+    color: rgb(228, 240, 240);
+}
+/*footer section*/
+footer{
+    background-color: rgb(199, 232, 235);
+     height: 30vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1350px;
+    margin:0 auto;
+    padding: 0 auto;
+}
+.footer-section h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.footer-section .socials{
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
+.footer-section .socials h4{
+    font-size: 1rem;
+}
+.footer-section .socials h4:hover{
+    font-size: 1.1rem;
+    color: rgb(68, 170, 170);
+    scale: 1.1;
+    cursor: pointer;
+}
+/*full toys*/
+.full-toys{
+    padding-top: 5rem;
+}
+.full-toys .full-section{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.full-toys .full-section h3{
+    color: rgb(99, 201, 201);
+    font-size: 2rem;
+    margin-top: 2rem;
+    
+}
+.full-toys .full-section .full-section2 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-content: flex-start;
+}
+.full-toys .full-section .full-section2 .full{
+    margin: 2rem 0;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.full img {
+    margin-bottom: 1rem;
+}
+.full img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.full h4{
+    font-size: 1.4rem;
+}
+
+
+/*Responsive Design*/
+@media (max-width: 1330px){
+    *{
+        font-size: 90%;
+    }
+}
+@media (max-width: 1100px) {
+    * {
+        text-align: center;
+        font-size: 80%;
+    }
+    .main-section {
+        align-items: center;
+        padding: 2rem 0rem;
+        width: 50%;
+    }
+    .main .btn {
+        align-self: center;
+        font-size: 90% !important;
+    }
+}
+@media (max-width:611px) {
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        max-width: 800px;
+    }
+    nav .bars-menu{
+        display: block;
+        font-size: 3rem;
+    }
+    nav .nav-items {
+        position: absolute;
+        left: 0;
+        top: 10vh;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(86, 172, 172);
+        padding: 2rem 0;
+    }
+    nav .nav-items .nav-item {
+        margin: 1rem 0;
+    }
+    nav .nav-items .nav-item a {
+        color: rgb(225, 242, 243);
+    }
+    nav .nav-items.active {
+        display: flex;
+    }
+}
